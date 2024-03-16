@@ -1,0 +1,8 @@
+{
+  "extends": "assemblyscript/std/assembly.json",
+  "CompilerServerEndpoint": "https://compiler.ora.io/compile/",
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "strictBindCallApply": false
+  }
+}
